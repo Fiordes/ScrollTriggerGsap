@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section h2 {
+  font-size: 6em;
+  color: #ffffff;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+}
+
+.box h2 {
+  font-size: 3em;
+}
+
+.box .logo {
+  max-width: 300px;
+}
+
+.box2 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  background: #232323;
+}
+
+.box2 h2 {
+  font-size: 3em;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
